@@ -1,0 +1,38 @@
+'*****************************************************************************
+
+'' ABC Automated Testing
+'' Copyright (c) 2009 ABC
+'' All Rights Reserved Worldwide
+'' Unauthorized Duplication or Distribution Prohibited
+'' *****************************************************************************
+'' FILENAME: addcustomer
+'' *****************************************************************************
+'' ABOUT THIS FILE 
+
+'' AUTHOR IDENTITY:
+
+'' Initials		Name/LastName
+'' --------		-----------------------------------------
+'' rw 			Lilia Zaiteva 
+
+'' REVISION HISTORY:
+
+'' Date/Initials	Comments
+'' ---------		-------------------------------
+
+'' 06/18/2021  rw	Created for LoanApp 2.1.08
+
+''*****************************************
+''SCRIPT
+
+'variables declaration
+Dim strBranch, strUser, strPassword
+
+''Valid input
+AddCustomer "Julia", "Roberts", "1100 Sunset blvd", "Hollywood", "CA", "98286"
+
+''Invalid input - missing Username
+AddCustomer "", "Roberts", "1100 Sunset blvd", "Hollywood", "CA", "98286"
+
+''Invalid input - missing password
+AddCustomer "Julia", "", "1100 Sunset blvd", "Hollywood", "CA", "98286"
