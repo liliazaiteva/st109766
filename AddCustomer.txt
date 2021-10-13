@@ -25,6 +25,8 @@
 ''*****************************************
 ''SCRIPT
 
+''To test new ideas
+
 'variables declaration
 Dim strBranch, strUser, strPassword
 
