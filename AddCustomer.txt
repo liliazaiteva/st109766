@@ -34,9 +34,6 @@ Dim strBranch, strUser, strPassword
 AddCustomer "Julia", "Roberts", "1100 Sunset blvd", "Hollywood", "CA", "98286"
 
 ''Valid input
-AddCustomer "Izabele", "Roberts", "1100 Sunset blvd", "Hollywood", "CA", "98286"
-
-''Valid input
 AddCustomer "Janet", "Roberts", "1100 Sunset blvd", "Hollywood", "CA", "98286"
 
 ''Valid input
